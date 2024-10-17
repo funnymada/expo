@@ -35,6 +35,10 @@ export function ThemedText({
 
 const styles = StyleSheet.create({
   default: {
+    flex: 1,
+    flexDirection: 'row',
+    justifyContent: 'center',
+    alignItems: 'center',
     fontSize: 16,
     lineHeight: 24,
   },
@@ -49,6 +53,8 @@ const styles = StyleSheet.create({
     lineHeight: 32,
   },
   subtitle: {
+    flexDirection: 'row',
+    alignItems: 'center',
     fontSize: 20,
     fontWeight: 'bold',
   },
